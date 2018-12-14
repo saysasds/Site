@@ -4,9 +4,17 @@
         <servlet-name>Cadastro</servlet-name>
         <servlet-class>Cadastro</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>servlet.Register</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Cadastro</servlet-name>
         <url-pattern>/Cadastro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
